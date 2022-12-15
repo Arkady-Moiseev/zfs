@@ -4,7 +4,8 @@ disk_controller = 'IDE' # MacOS. This setting is OS dependent. Details https://g
  
 MACHINES = {
   :zfs => {
-        :box_name => "my-box-centos-7-2004",
+        :box_name => "centos/7",
+        :box_version => "2004.01",
         :provision => "autoconfig.sh",
     :disks => {
         :sata1 => {
